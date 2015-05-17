@@ -1,0 +1,219 @@
+html { 
+  /*background: url(../images/background.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#title {
+    display: block;
+    text-align: center;
+    clear:both;
+}
+
+#image {
+    -webkit-filter: drop-shadow(0 0 80px rgba(255, 255, 255, 0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    
+}
+
+/*text thing*/
+body {
+  font: 400 1em/1.5 "Neuton";
+  /*background-color: black;*/
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+p span {
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  /* Clip Background Image */
+  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+  -webkit-background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/**/
+			/*************************** 
+			* global
+			***************************/
+			
+			* {
+				padding: 0;
+				margin: 0;
+				border: 0;
+			}
+			body {
+			    background-color: #262626;
+			    width: auto;
+			    font: normal 100% Helvetica, Verdana;
+			}
+			hr, span { display: none; }
+			
+			
+			/*************************** 
+			* links
+			***************************/
+
+			div#content {
+				display: block;
+				padding: 5%;
+			}
+			
+			h1 {
+			    display: block;
+			    font-size: 400%;
+			    line-height: 100%;
+			    letter-spacing: -3px;
+			    color: #757575;
+			    margin: 1px 0 2px 0;
+			}
+			
+			h2 {
+				
+				font-size: 150%;
+			    letter-spacing: -1px;
+			    color: #3f3f3f;
+			    margin: 2px 0 2px 0;
+			    line-height: 110%;
+			}	
+				
+			h3, h4 {
+			    color: #3f3f3f;
+			    font-size: 200%;
+			    letter-spacing: -2px;
+			    margin: 0 0 1px 0;
+			    line-height: 110%;
+			}
+			
+			
+			h4 {
+			    color: #000;
+			    font-size: 120%;
+			    letter-spacing: -1px;
+			}
+			
+			a,
+			a:visited {
+			    color: #e93c3c;
+			    text-decoration: none;
+			}
+			a:hover {
+			    text-decoration: underline;
+			}
+			
+			a#colour_1,
+			a#colour_1:visited {
+			    color: #6DCFF6;
+			
+			}
+			
+			a#colour_2,
+			a#colour_2:visited {
+			    color: #8393CA;
+			
+			}
+			
+			a#colour_3,
+			a#colour_3:visited {
+			    color: #A186BE;
+			
+			}
+			
+			a#colour_4,
+			a#colour_4:visited {
+			    color: #F5989D;
+			
+			}
+			
+			a#colour_5,
+			a#colour_5:visited {
+			    color: #F9AD81;
+			
+			}
+			
+			a#colour_6,
+			a#colour_6:visited {
+			    color: #FFF799;
+			
+			}
+			
+			a#colour_7,
+			a#colour_7:visited {
+			    color: #82CA9C;
+			
+			}
+			
+			a#colour_8,
+			a#colour_8:visited {
+			    color: #C7B299;
+			
+			}
+			
+			a#colour_9,
+			a#colour_9:visited {
+			    color: #4092C9;
+			
+			}
+			
+			a#colour_10,
+			a#colour_10:visited {
+			    color: #009fa1;
+			
+			}
+			
+			a#colour_11,
+			a#colour_11:visited {
+			    color: #ffcc66;
+			
+			}
+			
+			a#colour_12,
+			a#colour_12:visited {
+				color: #ccff66 
+			}
