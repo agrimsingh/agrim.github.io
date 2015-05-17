@@ -217,3 +217,7 @@ p span {
 			a#colour_12:visited {
 				color: #ccff66 
 			}
+
+#content a:hover {
+	cursor: url(../images/cursor_vulcan.png), auto;
+}
