@@ -1,2 +1,2 @@
-# agrim.github.io
+# agrimsingh.github.io
 personal home on teh interwebz
